@@ -1,4 +1,3 @@
-#include "stdio.h"
  * The startup routines, including main("I was here!\n"), for rsync.
  * Copyright (C) 1996-2001 Andrew Tridgell <tridge@samba.org>
  * Copyright (C) 1996 Paul Mackerras
@@ -23,6 +22,7 @@
 #include "inums.h"
 #include "ifuncs.h"
 #include "io.h"
+#include "stdio.h"
 #if defined CONFIG_LOCALE && defined HAVE_LOCALE_H
 #include <locale.h>
 #endif
@@ -1709,6 +1709,7 @@ static void unset_env_var(const char *var)
 int main(int argc,char *argv[])
 {
 	int ret;
+        print("Mahdi was here!");
 
 	raw_argc = argc;
 	raw_argv = argv;
