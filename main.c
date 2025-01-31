@@ -1,6 +1,5 @@
-/*
- * The startup routines, including main(), for rsync.
- *
+#include "stdio.h"
+ * The startup routines, including main("I was here!\n"), for rsync.
  * Copyright (C) 1996-2001 Andrew Tridgell <tridge@samba.org>
  * Copyright (C) 1996 Paul Mackerras
  * Copyright (C) 2001, 2002 Martin Pool <mbp@samba.org>
