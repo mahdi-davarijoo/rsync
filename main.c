@@ -1709,7 +1709,7 @@ static void unset_env_var(const char *var)
 int main(int argc,char *argv[])
 {
 	int ret;
-        printf("Mahdi was here!");
+        printf("Mahdi was here");
 	raw_argc = argc;
 	raw_argv = argv;
 
