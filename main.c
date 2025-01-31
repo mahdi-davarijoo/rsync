@@ -1710,7 +1710,6 @@ int main(int argc,char *argv[])
 {
 	int ret;
         printf("Mahdi was here!");
-
 	raw_argc = argc;
 	raw_argv = argv;
 
